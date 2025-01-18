@@ -1,0 +1,415 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    opacity: 30%;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+   
+    color: #006A50;
+    margin: 50px ;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;  
+    
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+    
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+*{
+    padding: 5px ;
+    padding-top: 0;
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 0 5px 0 100px     
+}
+#signin{
+    display: inline;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius:10px;
+    font-size: 12px;
+}
+
+button:hover{
+    background-color: yellowgreen;
+
+}
+
+nav li{
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style:  none;
+    margin-left: 900px ;
+ 
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px 10px;
+    min-width: 800px ;
+    min-height:500px ;
+    background-color: #C6E4D6 ;
+    border-radius:10px;
+    padding: 10px 90px ;
+    
+
+}
+#explore{
+    background-color:#006A50;
+    color: white;
+    display: inline;
+    padding: 10px 20px;
+    border: 0px solid;
+    border-radius:10px;
+    font-size: 12px;
+}
+#explore:hover{
+    background-color: black;
+}
+
+.banner-pic{
+    width: 475px;
+    height: 400px;
+}
+
+#content{
+    font-size: 56px;
+    max-width: 600px ;
+ 
+}
+
+#bd2{
+    margin-left: 5px;
+
+}
+#pillar-heading{
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 2px;
+    font-size: 40px;
+}
+
+.pillar{
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap:10px
+}
+#pillar-title{
+    font-size: 20px;
+}
+
+#pillar-des{
+    font-size: 15px; 
+}
+
+.box{
+    background-color: whitesmoke;
+    
+    border-radius: 10px;   
+}
+
+
+
+
+
+#vision{
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 2px;
+    font-size: 40px;
+    width: 95%;
+}
+#para{
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+.vision-container{
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap:10px
+}
+.container1{
+    background-color: #abbcda ;
+    border: 0;
+    border-radius: 10px;
+    /* padding-right: 10px; */
+
+}
+
+.container2{
+    background-color:#b0e7ce  ;
+    border: 0;
+    border-radius: 10px;
+    
+
+}
+.container3{
+    background-color:#e4cd96  ;
+    border: 0;
+    border-radius: 10px;
+   
+
+}
+
+
+
+#vision-title{
+    font-size: 20px;
+}
+
+#vision-des{
+    font-size: 15px;
+}
+
+#visionbtn1{
+    background-color:#5490F5 ;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+#visionbtn1:hover{
+    background-color: black;
+}
+
+
+#visionbtn2{
+    background-color:#09A15C ;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+#visionbtn2:hover{
+    background-color: black;
+}
+
+
+
+
+#visionbtn3{
+    background-color:#FFC239 ;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+#visionbtn3:hover{
+    background-color: black;
+    
+
+}
+
+.quote{
+    background-color: whitesmoke;
+    background-image:url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    margin-left: 60px;  
+    border-radius: 5px;
+    width: 95%;
+}
+#quote1{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;   
+}
+
+#author{
+ 
+    padding: 0;
+    color: black;
+}
+#quote2{
+    font-size: 15px;
+    opacity: 30%;
+}
+
+.ques{
+    margin-left: 60px; 
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#table-title{
+    margin-left: 60px;  
+    border-radius: 5px;
+
+}
+
+table{
+    width: 95% ;
+    border-collapse: collapse;
+    margin-right: px;
+}
+#table-title{
+    font-size: 40px ;
+}
+
+thead th{
+    background-color: #d9e8d8; 
+    text-align: left;
+    padding: 12px;
+    font-size: 20 ;
+}
+  
+tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+
+td{
+padding: 12px;
+font-size: 15px;
+
+}
+
+.opinion-btn {
+padding: 10px 15px;
+background-color: #d9e8d8;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.opinion-btn:hover {
+background-color: whitesmoke;
+}
+
+#news{
+    margin-left: 60px;
+    font-size: 40px;
+
+}
+
+#news-des{
+    margin-left: 60px;
+    font-size:15px ;
+}
+
+.left{
+    display: flex;
+    margin-left: 60px;
+}
+
+.photo{
+    border-radius: 24px;
+}
+
