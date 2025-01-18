@@ -34,9 +34,7 @@
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-style: normal;
-   
-    color: #006A50;
-    margin: 50px ;
+
   }
   
   .fira-sans-bold {
@@ -113,23 +111,23 @@
     font-style: italic;
   }
   
-*{
-    padding: 5px ;
-    padding-top: 0;
-    
+body{
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 
-nav{
+.navbar{
     display: flex;
     align-items: center ;
     justify-content: space-between;
     font-size: 15px;
-    margin: 0 5px 0 100px     
+    padding: 24px 0px;
+    margin-bottom: 20px;
+      
 }
-#signin{
-    display: inline;
-    padding: 10px 20px;
+.signin{
+    padding: 15px 30px;
     border: 1px solid;
     border-radius:10px;
     font-size: 12px;
@@ -140,26 +138,17 @@ button:hover{
 
 }
 
-nav li{
-    margin-left: 50px;
-    margin-right: 50px;
-    list-style:  none;
-    margin-left: 900px ;
- 
-}
 .banner{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 80px 10px;
-    min-width: 800px ;
-    min-height:500px ;
+    justify-content: space-evenly;
+    padding: 80px 100px;
+
     background-color: #C6E4D6 ;
     border-radius:10px;
-    padding: 10px 90px ;
-    
-
 }
+
+
+
 #explore{
     background-color:#006A50;
     color: white;
@@ -180,14 +169,11 @@ nav li{
 
 #content{
     font-size: 56px;
-    max-width: 600px ;
+
  
 }
 
-#bd2{
-    margin-left: 5px;
 
-}
 #pillar-heading{
     padding-top: 50px;
     margin-left: 70px;
@@ -200,8 +186,7 @@ nav li{
     margin-left: 60px;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
-    gap:10px
+    gap:20px
 }
 #pillar-title{
     font-size: 20px;
@@ -213,7 +198,7 @@ nav li{
 
 .box{
     background-color: whitesmoke;
-    
+    padding: 30px;
     border-radius: 10px;   
 }
 
@@ -227,7 +212,7 @@ nav li{
     margin-left: 70px;
     margin-bottom: 2px;
     font-size: 40px;
-    width: 95%;
+    width: 100%;
 }
 #para{
     margin-left: 70px;
